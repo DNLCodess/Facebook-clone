@@ -1,0 +1,141 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body{
+  height: 100vh;
+
+}
+.container{
+  display: flex;
+  height: 100%;
+}
+
+section{
+  margin: auto 100px;
+
+  width: 100%;
+  height: 500px;
+  border-left: none;
+  
+}
+.head-text{
+  color: #1877F2;
+  text-transform: lowercase;
+  font-size: 35px;
+  margin: 15px 0;
+  font-family: 'Noto Sans', sans-serif;
+}
+.word{
+  margin: 30px 0;
+}
+.pic{
+  height: 200px;
+  width: 150px;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  margin-top: 15px;
+}
+.pic-box{
+  height: 80%;
+  width: 100%;
+  border-radius: 15px;
+  background: url(IMG_8487.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.text{
+ text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+}
+.text p a{
+  text-decoration: none;
+}
+.acct-add{
+  height: 200px;
+  width: 150px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  border-radius: 15px;
+  position: relative;
+  transform: translate(220px, -200px);
+}
+.icon{
+  height: 80%;
+  color: #1877F2;
+  font-weight: 800;
+  font-size: 80px;
+  padding:40px;
+}
+.input-box{
+  position: absolute;
+  bottom: 120px;
+  right: 0;
+  transform: translateX(-100px);
+  height: 450px;
+  width: 45%;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  display: flex ;
+  align-items: center;
+  flex-direction: column;
+}
+input{
+  padding: 15px;
+  width: 85%;
+  margin: 15px;
+  border-radius: 5px;
+  font-size: 17px;
+  font-family: 'Poppins', sans-serif;
+}
+input::placeholder{
+  font-size: 15px;
+}
+.btn{
+  padding: 15px;
+  width: 85%;
+  border-radius: 5px;
+  background-color: #1877F2;
+  outline: none;
+  cursor: pointer;
+  color: white;
+  font-weight: 700;
+  font-size: 17px;
+}
+
+.input-box .text2{
+
+  font-size: 20px;
+  line-height: 35px;
+  word-spacing: 7px;
+}
+.input-box .text2 a{
+  text-decoration: none;
+  color: #1877F2;
+}
+.input-box div{
+  height: 20px;
+  width: 85%;
+  border-bottom: 1px solid black;
+}
+.btn2{
+  padding: 15px;
+  width: 85%;
+  border-radius: 5px;
+  background-color: #1877F2;
+  outline: none;
+  cursor: pointer;
+  margin: 20px 0;
+  color: white;
+  font-weight: 700;
+  font-size: 17px;
+}
+
+.input-box .text3{
+  color: black;
+  font-size: 20px;
+}
+.btn-link, .btn-link2{
+  width: 85%;
+  text-align: center;
+}
